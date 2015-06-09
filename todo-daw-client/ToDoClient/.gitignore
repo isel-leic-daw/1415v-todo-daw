@@ -1,0 +1,4 @@
+!bower_components
+development\node_modules
+development\bower_components
+npm-debug.log
