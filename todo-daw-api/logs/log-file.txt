@@ -1,0 +1,31 @@
+2015-06-11 09:18:37,652 [1] INFO  ToDoAPI.WebApiApplication [(null)] - READY TO ROCK
+2015-06-11 09:27:25,075 [1] INFO  ToDoAPI.WebApiApplication - READY TO ROCK
+2015-06-11 09:27:32,305 [21] INFO  ToDoAPI.Controllers.ToDoController - /api/todo/1
+2015-06-11 09:27:33,666 [26] INFO  ToDoAPI.Controllers.ToDoController - /api/todo/1
+2015-06-11 09:27:34,167 [27] INFO  ToDoAPI.Controllers.ToDoController - /api/todo/1
+2015-06-11 09:27:34,249 [21] INFO  ToDoAPI.Controllers.ToDoController - /api/todo/1
+2015-06-11 09:27:34,333 [26] INFO  ToDoAPI.Controllers.ToDoController - /api/todo/1
+2015-06-11 09:27:34,416 [27] INFO  ToDoAPI.Controllers.ToDoController - /api/todo/1
+2015-06-11 09:27:34,500 [19] INFO  ToDoAPI.Controllers.ToDoController - /api/todo/1
+2015-06-11 09:27:34,584 [21] INFO  ToDoAPI.Controllers.ToDoController - /api/todo/1
+2015-06-11 09:27:34,669 [26] INFO  ToDoAPI.Controllers.ToDoController - /api/todo/1
+2015-06-11 09:27:34,752 [19] INFO  ToDoAPI.Controllers.ToDoController - /api/todo/1
+2015-06-11 09:27:34,836 [21] INFO  ToDoAPI.Controllers.ToDoController - /api/todo/1
+2015-06-11 09:27:34,920 [26] INFO  ToDoAPI.Controllers.ToDoController - /api/todo/1
+2015-06-11 09:27:35,003 [19] INFO  ToDoAPI.Controllers.ToDoController - /api/todo/1
+2015-06-11 09:27:35,087 [21] INFO  ToDoAPI.Controllers.ToDoController - /api/todo/1
+2015-06-11 09:27:35,171 [26] INFO  ToDoAPI.Controllers.ToDoController - /api/todo/1
+2015-06-11 09:27:35,255 [19] INFO  ToDoAPI.Controllers.ToDoController - /api/todo/1
+2015-06-11 09:27:35,339 [21] INFO  ToDoAPI.Controllers.ToDoController - /api/todo/1
+2015-06-11 09:27:35,422 [27] INFO  ToDoAPI.Controllers.ToDoController - /api/todo/1
+2015-06-11 09:27:35,507 [26] INFO  ToDoAPI.Controllers.ToDoController - /api/todo/1
+2015-06-11 09:27:35,591 [19] INFO  ToDoAPI.Controllers.ToDoController - /api/todo/1
+2015-06-11 09:27:35,676 [27] INFO  ToDoAPI.Controllers.ToDoController - /api/todo/1
+2015-06-11 09:27:35,759 [19] INFO  ToDoAPI.Controllers.ToDoController - /api/todo/1
+2015-06-11 09:27:35,842 [21] INFO  ToDoAPI.Controllers.ToDoController - /api/todo/1
+2015-06-11 09:27:35,926 [26] INFO  ToDoAPI.Controllers.ToDoController - /api/todo/1
+2015-06-11 09:27:50,426 [27] INFO  ToDoAPI.Controllers.InfoController - api/info/db
+2015-06-11 09:27:56,200 [26] INFO  ToDoAPI.Controllers.InfoController - api/info/exception
+2015-06-11 09:27:56,201 [26] ERROR ToDoAPI.Controllers.InfoController - api/info/exception
+System.NotImplementedException: This is the message text...
+   at ToDoAPI.Controllers.InfoController.GetException() in c:\daw-1415v\1415v-todo-daw\todo-daw-api\ToDoAPI\Controllers\InfoController.cs:line 33

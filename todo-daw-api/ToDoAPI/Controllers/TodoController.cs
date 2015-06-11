@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using log4net;
 using ToDoAPI.StateModels;
 using ToDoAPI.Store;
 
@@ -11,6 +12,8 @@ namespace ToDoAPI.Controllers
 {
     public class ToDoController : ApiController
     {
+        private ILog Log = LogManager.GetLogger(typeof (ToDoController));
+
         [Route("api/todo", Name = "GetAllTodos")]
         public TodoListState Get(int page = 1)
         {
@@ -25,6 +28,8 @@ namespace ToDoAPI.Controllers
         [Swashbuckle.Swagger.Annotations.SwaggerResponse(200, Description = "Ok", Type = typeof(TodoState))]
         public HttpResponseMessage GetById(int id)
         {
+            Log.InfoFormat("/api/todo/{0}", id);
+
             var store = new ToDoStore();
             var todo = store.GetById(id);
             if (todo == null)
