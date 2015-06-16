@@ -27,16 +27,7 @@ namespace ToDoAPI.Controllers
         [Route("api/info/exception")]
         public void GetException()
         {
-            Log.Info("api/info/exception");
-            try
-            {
-                SomeMethod();
-            }
-            catch (Exception exp)
-            {
-                Log.Error("api/info/exception", exp);
-                throw;
-            }
+            SomeMethod();
         }
 
         private void SomeMethod()
